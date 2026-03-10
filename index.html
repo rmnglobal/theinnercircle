@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner With Us | TheInnerCircle</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Build something real. A vertically integrated brand from manufacturing to retail">
+    <meta name="keywords" content="theinnercircle, rimani, partner with us, build together, startup, brand building">
+    <meta name="author" content="TheInnerCircle">
+    
+    <!-- Mobile Optimization -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#0a0a0a">
+    
+    <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rmnglobal.github.io/theinnercircle/">
+    <meta property="og:title" content="Partner With Us | TheInnerCircle">
+    <meta property="og:description" content="Build something real. A vertically integrated brand from manufacturing to retail">
+    <meta property="og:image" content="https://raw.githubusercontent.com/rmnglobal/theinnercircle/main/ogimg.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rmnglobal.github.io/theinnercircle/">
+    <meta property="twitter:title" content="Partner With Us | TheInnerCircle">
+    <meta property="twitter:description" content="Build something real. A vertically integrated brand from manufacturing to retail">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/rmnglobal/theinnercircle/main/ogimg.png">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.7;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #ffffff;
+            letter-spacing: -0.02em;
+        }
+        
+        .subtitle {
+            font-size: 20px;
+            color: #888;
+            margin-bottom: 50px;
+            line-height: 1.6;
+        }
+        
+        .section {
+            margin-bottom: 50px;
+        }
+        
+        h2 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+        
+        p {
+            font-size: 17px;
+            margin-bottom: 15px;
+            color: #b0b0b0;
+        }
+        
+        .highlight {
+            background: #1a1a1a;
+            border-left: 3px solid #ffffff;
+            padding: 25px 30px;
+            margin: 30px 0;
+        }
+        
+        .highlight p {
+            margin: 0;
+            color: #e0e0e0;
+            font-size: 18px;
+        }
+        
+        ul {
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        li {
+            font-size: 17px;
+            color: #b0b0b0;
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #ffffff;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #ffffff;
+            color: #0a0a0a;
+            padding: 18px 40px;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 30px;
+            transition: background 0.2s;
+            position: relative;
+        }
+        
+        .cta-button:hover {
+            background: #e0e0e0;
+        }
+        
+        .cta-button::after {
+            content: '→';
+            margin-left: 8px;
+            font-size: 20px;
+        }
+        
+        .floating-cta {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #ffffff;
+            color: #0a0a0a;
+            padding: 16px 32px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 50px;
+            box-shadow: 0 4px 20px rgba(255,255,255,0.2);
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+        
+        .floating-cta:hover {
+            background: #e0e0e0;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(255,255,255,0.3);
+        }
+        
+        .floating-cta::after {
+            content: '→';
+            margin-left: 8px;
+            font-size: 18px;
+        }
+        
+        @media (max-width: 768px) {
+            .floating-cta {
+                bottom: 20px;
+                right: 20px;
+                padding: 14px 28px;
+                font-size: 15px;
+            }
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .card {
+            background: #141414;
+            border: 1px solid #2a2a2a;
+            padding: 25px;
+            border-radius: 8px;
+        }
+        
+        .card h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        
+        .card p {
+            font-size: 15px;
+            color: #888;
+            margin: 0;
+        }
+        
+        .divider {
+            height: 1px;
+            background: #2a2a2a;
+            margin: 60px 0;
+        }
+        
+        .header-logos {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 60px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        
+        .logo-rimani {
+            height: 45px;
+            width: auto;
+        }
+        
+        .logo-innercircle {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 0.15em;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+        
+        .logo-divider {
+            width: 1px;
+            height: 40px;
+            background: #4a4a4a;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 36px;
+            }
+            
+            h2 {
+                font-size: 24px;
+            }
+            
+            .container {
+                padding: 40px 20px;
+            }
+            
+            .header-logos {
+                flex-direction: column;
+                gap: 15px;
+                align-items: flex-start;
+            }
+            
+            .logo-divider {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Floating CTA Button -->
+    <a href="https://forms.gle/v3aPiCyCEJYnGYbz8" class="floating-cta">I'm In</a>
+    
+    <div class="container">
+        <div class="header-logos">
+            <img src="data:image/png;base64,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" alt="Rimani" class="logo-rimani">
+            <div class="logo-divider"></div>
+            <div class="logo-innercircle">TheInnerCircle</div>
+        </div>
+        
+        <h1>Let's build something real.</h1>
+        <p class="subtitle">A vertically integrated brand. Manufacturing to retail. Content to sales.<br>If you're ready to build, not brainstorm, keep reading.</p>
+        
+        <div class="section">
+            <h2>What we're building</h2>
+            <p>A brand that controls every vertical. From manufacturing to distribution to retail. From content creation to marketing to sales.</p>
+            <p>We're not starting with a product. We're starting with a team of people who can actually build, then deciding what to make together.</p>
+            <p>No roadmap. No perfect plan. Just serious people figuring it out as we go.</p>
+        </div>
+        
+        <div class="highlight">
+            <p>This isn't for everyone. If you're here to "see where this goes" or wait for someone to hand you a plan, this isn't it.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Who we're looking for</h2>
+            <p>People who can actually contribute in these areas:</p>
+            
+            <div class="grid">
+                <div class="card">
+                    <h3>Product & Ops</h3>
+                    <p>Manufacturing, supply chain, logistics, operations</p>
+                </div>
+                <div class="card">
+                    <h3>Sales & Distribution</h3>
+                    <p>B2B, B2C, wholesale, retail partnerships</p>
+                </div>
+                <div class="card">
+                    <h3>Marketing & Content</h3>
+                    <p>Paid ads, content creation, brand building</p>
+                </div>
+                <div class="card">
+                    <h3>Finance & Tech</h3>
+                    <p>Accounting, development, design, legal</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>What we're offering</h2>
+            <ul>
+                <li>Equity or sweat equity (your choice)</li>
+                <li>Location doesn't matter</li>
+                <li>You help decide what we build</li>
+                <li>Control over your vertical</li>
+                <li>No corporate bullshit, no endless meetings</li>
+            </ul>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class="section">
+            <h2>What happens next</h2>
+            <p>Fill out the form below. It takes 3 minutes.</p>
+            <p>We'll review it. If there's a fit, we'll reach out.</p>
+            <p>If not, consider yourself gently dismissed.</p>
+            <p>We're looking for builders, not résumés. People who ship, not people who plan to ship "soon."</p>
+            
+            <a href="https://forms.gle/v3aPiCyCEJYnGYbz8" class="cta-button">I'm In</a>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div class="section">
+            <p style="color: #666; font-size: 15px;">This is Theinnercircle. We build. We don't wait for permission.</p>
+        </div>
+    </div>
+</body>
+</html>

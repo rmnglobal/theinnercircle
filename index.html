@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner With Us | TheInnerCircle</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Build something real. A vertically integrated brand from manufacturing to retail">
+    <meta name="keywords" content="theinnercircle, rimani, partner with us, build together, startup, brand building">
+    <meta name="author" content="TheInnerCircle">
+    
+    <!-- Mobile Optimization -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#0a0a0a">
+    
+    <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rmnglobal.github.io/theinnercircle/">
+    <meta property="og:title" content="Partner With Us | TheInnerCircle">
+    <meta property="og:description" content="Build something real. A vertically integrated brand from manufacturing to retail">
+    <meta property="og:image" content="https://raw.githubusercontent.com/rmnglobal/theinnercircle/main/ogimg.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rmnglobal.github.io/theinnercircle/">
+    <meta property="twitter:title" content="Partner With Us | TheInnerCircle">
+    <meta property="twitter:description" content="Build something real. A vertically integrated brand from manufacturing to retail">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/rmnglobal/theinnercircle/main/ogimg.png">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            background: #0a0a0a !important;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: #0a0a0a !important;
+            color: #e0e0e0 !important;
+            line-height: 1.7;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        
+        .header-logos {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #2a2a2a;
+        }
+        
+        .logo-rimani {
+            height: 45px;
+            width: auto;
+        }
+        
+        .logo-innercircle {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 0.15em;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+        
+        .logo-divider {
+            width: 1px;
+            height: 35px;
+            background: #4a4a4a;
+        }
+        
+        .urgency-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-bottom: 30px;
+            color: #ffffff;
+        }
+        
+        .countdown-container {
+            background: rgba(255, 59, 48, 0.1);
+            border: 2px solid rgba(255, 59, 48, 0.3);
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .countdown-title {
+            font-size: 16px;
+            color: #ff3b30;
+            margin-bottom: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .countdown-timer {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .countdown-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 70px;
+        }
+        
+        .countdown-number {
+            font-size: 36px;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1;
+            margin-bottom: 5px;
+        }
+        
+        .countdown-label {
+            font-size: 12px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        
+        .form-closed {
+            display: none;
+            background: rgba(255, 59, 48, 0.1);
+            border: 2px solid rgba(255, 59, 48, 0.3);
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .form-closed h2 {
+            color: #ff3b30;
+            margin-bottom: 15px;
+        }
+        
+        .form-closed p {
+            color: #888;
+        }
+        
+        h1 {
+            font-size: 56px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #ffffff;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+        }
+        
+        .subtitle {
+            font-size: 22px;
+            color: #888;
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+        
+        .value-prop {
+            font-size: 18px;
+            color: #b0b0b0;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        
+        .contrast-section {
+            background: rgba(255, 59, 48, 0.05);
+            border-left: 3px solid rgba(255, 59, 48, 0.5);
+            padding: 20px 25px;
+            margin: 30px 0;
+        }
+        
+        .contrast-text {
+            font-size: 17px;
+            color: #d0d0d0;
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #ffffff;
+            color: #0a0a0a;
+            padding: 16px 40px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            margin: 30px 0;
+            transition: all 0.2s;
+        }
+        
+        .cta-button:hover {
+            background: #e0e0e0;
+            transform: translateY(-2px);
+        }
+        
+        .cta-button-large {
+            font-size: 18px;
+            padding: 18px 50px;
+            display: block;
+            text-align: center;
+            max-width: 400px;
+            margin: 30px auto;
+        }
+        
+        .floating-cta {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #ffffff;
+            color: #0a0a0a;
+            padding: 16px 30px;
+            border-radius: 50px;
+            font-size: 15px;
+            font-weight: 600;
+            text-decoration: none;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            transition: all 0.3s;
+            display: none;
+        }
+        
+        .floating-cta:hover {
+            background: #e0e0e0;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+        }
+        
+        .floating-cta.show {
+            display: block;
+        }
+        
+        .vertical-stack-section {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 40px;
+            border-radius: 8px;
+            margin: 50px 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .vertical-stack-section h2 {
+            font-size: 28px;
+            color: #ffffff;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .stack-visual {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .stack-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px 30px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #ffffff;
+            min-width: 200px;
+            text-align: center;
+        }
+        
+        .stack-arrow {
+            font-size: 24px;
+            color: #888;
+        }
+        
+        .stack-tagline {
+            text-align: center;
+            font-size: 16px;
+            color: #888;
+            margin-top: 25px;
+        }
+        
+        .for-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 50px 0;
+        }
+        
+        .for-column h3 {
+            font-size: 22px;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        
+        .for-list, .not-for-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .for-list li {
+            padding: 12px 0 12px 25px;
+            color: #b0b0b0;
+            position: relative;
+            font-size: 16px;
+        }
+        
+        .for-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        
+        .not-for-list li {
+            padding: 12px 0 12px 25px;
+            color: #b0b0b0;
+            position: relative;
+            font-size: 16px;
+        }
+        
+        .not-for-list li:before {
+            content: "✗";
+            position: absolute;
+            left: 0;
+            color: #ff3b30;
+            font-weight: bold;
+        }
+        
+        .skills-joining {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px 30px;
+            border-radius: 8px;
+            margin: 40px 0;
+        }
+        
+        .skills-joining h3 {
+            font-size: 18px;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+        
+        .skills-text {
+            font-size: 15px;
+            color: #888;
+            line-height: 1.6;
+        }
+        
+        .looking-for {
+            margin: 40px 0;
+        }
+        
+        .looking-for h2 {
+            font-size: 24px;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        
+        .what-you-get {
+            margin: 50px 0;
+        }
+        
+        .what-you-get h2 {
+            font-size: 24px;
+            color: #ffffff;
+            margin-bottom: 25px;
+        }
+        
+        .benefits-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .benefit-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px 25px;
+            border-radius: 8px;
+            border-left: 3px solid #ffffff;
+        }
+        
+        .benefit-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+        
+        .benefit-desc {
+            font-size: 15px;
+            color: #888;
+        }
+        
+        .trust-section {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 30px;
+            border-radius: 8px;
+            margin: 50px 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .trust-section-top {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px 30px;
+            border-radius: 8px;
+            margin: 30px 0 40px 0;
+            border-left: 3px solid #ffffff;
+        }
+        
+        .trust-text-top {
+            font-size: 17px;
+            color: #e0e0e0;
+            font-style: italic;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+        
+        .trust-author-top {
+            font-size: 14px;
+            color: #888;
+            text-align: right;
+        }
+        
+        .personal-section {
+            background: rgba(255, 255, 255, 0.03);
+            padding: 20px 25px;
+            border-radius: 8px;
+            margin: 25px 0;
+            border-left: 3px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .personal-text {
+            font-size: 16px;
+            color: #b0b0b0;
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        .identity-section {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 35px 30px;
+            border-radius: 8px;
+            margin: 50px 0;
+            text-align: center;
+        }
+        
+        .identity-section h2 {
+            font-size: 26px;
+            color: #ffffff;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        
+        .identity-text {
+            font-size: 18px;
+            color: #b0b0b0;
+            line-height: 1.8;
+            margin: 15px 0;
+        }
+        
+        .identity-final {
+            font-size: 17px;
+            color: #ffffff;
+            margin-top: 25px;
+            font-weight: 500;
+        }
+        
+        .momentum-section {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 8px;
+            margin: 50px 0;
+        }
+        
+        .momentum-section h3 {
+            font-size: 22px;
+            color: #ffffff;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        
+        .momentum-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 6px;
+        }
+        
+        .stat-number {
+            font-size: 36px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .momentum-skills {
+            font-size: 15px;
+            color: #b0b0b0;
+            line-height: 1.8;
+            text-align: center;
+        }
+        
+        .momentum-skills strong {
+            color: #ffffff;
+        }
+        
+        .trust-text {
+            font-size: 18px;
+            color: #e0e0e0;
+            font-style: italic;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .trust-author {
+            font-size: 14px;
+            color: #888;
+            text-align: right;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+            margin-bottom: 40px;
+        }
+        
+        .skill-item {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 12px 16px;
+            border-radius: 6px;
+            font-size: 15px;
+            color: #e0e0e0;
+        }
+        
+        .social-proof {
+            background: rgba(255, 255, 255, 0.05);
+            border-left: 3px solid #ffffff;
+            padding: 20px 25px;
+            margin: 40px 0;
+            font-size: 16px;
+            color: #e0e0e0;
+        }
+        
+        .form-section {
+            margin-top: 50px;
+        }
+        
+        .form-section h2 {
+            font-size: 28px;
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+        
+        .form-intro {
+            font-size: 16px;
+            color: #888;
+            margin-bottom: 30px;
+        }
+        
+        iframe {
+            width: 100%;
+            min-height: 1400px;
+            border: none;
+            border-radius: 8px;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        @media (max-width: 768px) {
+            html, body {
+                background: #0a0a0a !important;
+                color: #e0e0e0 !important;
+            }
+            
+            h1 {
+                font-size: 32px;
+                line-height: 1.2;
+                color: #ffffff !important;
+            }
+            
+            .subtitle {
+                font-size: 18px;
+                color: #888 !important;
+            }
+            
+            .value-prop {
+                font-size: 16px;
+                color: #b0b0b0 !important;
+            }
+            
+            .contrast-section {
+                padding: 16px 20px;
+                margin: 20px 0;
+            }
+            
+            .contrast-text {
+                font-size: 15px;
+            }
+            
+            .cta-button {
+                width: 100%;
+                text-align: center;
+                padding: 14px 30px;
+                font-size: 15px;
+            }
+            
+            .cta-button-large {
+                font-size: 16px;
+                padding: 16px 40px;
+                max-width: 100%;
+            }
+            
+            .floating-cta {
+                bottom: 15px;
+                right: 15px;
+                left: 15px;
+                text-align: center;
+                padding: 14px 20px;
+                font-size: 14px;
+            }
+            
+            .vertical-stack-section {
+                padding: 25px 20px;
+            }
+            
+            .vertical-stack-section h2 {
+                font-size: 22px;
+            }
+            
+            .stack-item {
+                min-width: 160px;
+                padding: 12px 20px;
+                font-size: 15px;
+            }
+            
+            .stack-tagline {
+                font-size: 15px;
+            }
+            
+            .for-section {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+            
+            .for-column h3 {
+                font-size: 20px;
+            }
+            
+            .for-list li, .not-for-list li {
+                font-size: 15px;
+            }
+            
+            .skills-joining {
+                padding: 20px;
+            }
+            
+            .skills-joining h3 {
+                font-size: 16px;
+            }
+            
+            .skills-text {
+                font-size: 14px;
+            }
+            
+            .container {
+                padding: 30px 16px;
+            }
+            
+            .header-logos {
+                flex-direction: column;
+                gap: 12px;
+                align-items: flex-start;
+                margin-bottom: 30px;
+                padding-bottom: 20px;
+            }
+            
+            .logo-divider {
+                display: none;
+            }
+            
+            .logo-rimani {
+                height: 35px;
+            }
+            
+            .urgency-badge {
+                font-size: 12px;
+                padding: 6px 12px;
+            }
+            
+            .countdown-container {
+                padding: 20px 15px;
+            }
+            
+            .countdown-title {
+                font-size: 14px;
+            }
+            
+            .countdown-timer {
+                gap: 10px;
+            }
+            
+            .countdown-item {
+                min-width: 60px;
+            }
+            
+            .countdown-number {
+                font-size: 28px;
+            }
+            
+            .countdown-label {
+                font-size: 10px;
+            }
+            
+            .skills-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+            
+            .skill-item {
+                padding: 10px 12px;
+                font-size: 14px;
+            }
+            
+            .looking-for h2 {
+                font-size: 20px;
+            }
+            
+            .what-you-get {
+                margin: 40px 0;
+            }
+            
+            .what-you-get h2 {
+                font-size: 20px;
+            }
+            
+            .benefit-item {
+                padding: 16px 20px;
+            }
+            
+            .benefit-title {
+                font-size: 16px;
+            }
+            
+            .benefit-desc {
+                font-size: 14px;
+            }
+            
+            .trust-section {
+                padding: 20px;
+            }
+            
+            .trust-section-top {
+                padding: 20px;
+                margin: 20px 0 30px 0;
+            }
+            
+            .trust-text-top {
+                font-size: 15px;
+            }
+            
+            .trust-author-top {
+                font-size: 13px;
+            }
+            
+            .personal-section {
+                padding: 16px 20px;
+                margin: 20px 0;
+            }
+            
+            .personal-text {
+                font-size: 15px;
+            }
+            
+            .identity-section {
+                padding: 25px 20px;
+            }
+            
+            .identity-section h2 {
+                font-size: 22px;
+            }
+            
+            .identity-text {
+                font-size: 16px;
+            }
+            
+            .identity-final {
+                font-size: 16px;
+            }
+            
+            .momentum-section {
+                padding: 25px 20px;
+            }
+            
+            .momentum-section h3 {
+                font-size: 20px;
+            }
+            
+            .momentum-stats {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .stat-number {
+                font-size: 32px;
+            }
+            
+            .momentum-skills {
+                font-size: 14px;
+            }
+            
+            .trust-text {
+                font-size: 16px;
+            }
+            
+            .trust-author {
+                font-size: 13px;
+            }
+            
+            .form-section h2 {
+                font-size: 22px;
+            }
+            
+            .form-intro {
+                font-size: 15px;
+            }
+            
+            .social-proof {
+                padding: 15px 20px;
+                font-size: 15px;
+            }
+            
+            iframe {
+                min-height: 2800px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 28px;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .countdown-timer {
+                gap: 8px;
+            }
+            
+            .countdown-item {
+                min-width: 50px;
+            }
+            
+            .countdown-number {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-logos">
+            <img src="data:image/png;base64,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" alt="Rimani" class="logo-rimani">
+            <div class="logo-divider"></div>
+            <div class="logo-innercircle">TheInnerCircle</div>
+        </div>
+        
+        <div class="urgency-badge">
+            🔥 50+ joined • Partnership invitations open until March 17
+        </div>
+        
+        <!-- Countdown Timer -->
+        <div class="countdown-container">
+            <div class="countdown-title">⏰ Partnership Window Closes In:</div>
+            <div class="countdown-timer" id="countdown">
+                <div class="countdown-item">
+                    <div class="countdown-number" id="days">00</div>
+                    <div class="countdown-label">Days</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="hours">00</div>
+                    <div class="countdown-label">Hours</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="minutes">00</div>
+                    <div class="countdown-label">Minutes</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-number" id="seconds">00</div>
+                    <div class="countdown-label">Seconds</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Personal Line + Quote Merged -->
+        <div class="trust-section-top">
+            <p class="trust-text-top">I don't know how to code. I don't have a perfect plan. I just like building things and figuring it out. So we're doing it.</p>
+            <p class="trust-text-top">"We're not waiting for permission. We're not pitching investors first. We're building with people who actually want to create an impact. Everything else follows."</p>
+            <div class="trust-author-top">— R M Patel</div>
+        </div>
+        
+        <h1>Build the Next Vertically Integrated Consumer Brand</h1>
+        <p class="subtitle">Manufacturing → Distribution → Retail</p>
+        
+        <a href="#formSection" class="cta-button">Become a Founding Partner</a>
+        
+        <div class="contrast-section">
+            <p class="contrast-text">Most businesses rely on outsourced production and third-party distribution. Margins disappear. Control disappears. Speed disappears.</p>
+        </div>
+        
+        <p class="value-prop">Higher margins. Faster innovation. Direct customer ownership. We're opening The Inner Circle to a small group of partners.</p>
+        
+        <div class="social-proof">
+            ⚡ 50+ members already inside. More joining daily.
+        </div>
+        
+        <!-- Vertical Stack Section -->
+        <div class="vertical-stack-section">
+            <h2>The Goal: Control the Entire Stack</h2>
+            <div class="stack-visual">
+                <div class="stack-item">Manufacturing</div>
+                <div class="stack-arrow">↓</div>
+                <div class="stack-item">Distribution</div>
+                <div class="stack-arrow">↓</div>
+                <div class="stack-item">Wholesale</div>
+                <div class="stack-arrow">↓</div>
+                <div class="stack-item">Retail</div>
+                <div class="stack-arrow">↓</div>
+                <div class="stack-item">Content</div>
+                <div class="stack-arrow">↓</div>
+                <div class="stack-item">Marketing</div>
+                <div class="stack-arrow">↓</div>
+                <div class="stack-item">Sales</div>
+            </div>
+            <p class="stack-tagline">Instead of relying on others, we build and control the whole pipeline.</p>
+        </div>
+        
+        <a href="#formSection" class="cta-button">Become a Founding Partner</a>
+        
+        <!-- Identity Section -->
+        <div class="identity-section">
+            <h2>This is for people who like building things.</h2>
+            <p class="identity-text">Not watching.<br>Not commenting.<br>Actually building.</p>
+            <p class="identity-text">Operators.<br>Tinkerers.<br>People who get bored if they aren't creating something.</p>
+            <p class="identity-final">If that's you, you'll fit right in.</p>
+        </div>
+        
+        <!-- Visible Momentum -->
+        <div class="momentum-section">
+            <h3>The train is moving:</h3>
+            <div class="momentum-stats">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Founding Members</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Cities</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4+</div>
+                    <div class="stat-label">Countries</div>
+                </div>
+            </div>
+            <p class="momentum-skills"><strong>Skills already in the room:</strong><br>Manufacturing • Supply Chain • Sales • Marketing • Content Creation • Design • Tech Development • Operations • Finance • Legal</p>
+        </div>
+        
+        <a href="#formSection" class="cta-button">Become a Founding Partner</a>
+        
+        <div class="form-section" id="formSection">
+            <h2>Founding Partner Window</h2>
+            <p class="form-intro">Closes March 17. The first group helps shape the brand, the systems, and the direction. After this, we stop onboarding and start building.</p>
+        </div>
+        
+        <!-- Form Closed Message -->
+        <div class="form-closed" id="formClosed">
+            <h2>Partnership Window Closed</h2>
+            <p>The founding partner window has ended. Thanks for your interest.</p>
+        </div>
+    </div>
+    
+    <!-- Floating CTA Button -->
+    <a href="https://forms.gle/v3aPiCyCEJYnGYbz8" target="_blank" class="floating-cta" id="floatingCta">
+        Become a Founding Partner
+    </a>
+    
+    <script>
+        // Set the deadline: March 17, 2026 at 11:59:59 PM
+        const deadline = new Date('March 17, 2026 23:59:59').getTime();
+        
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = deadline - now;
+            
+            // Time calculations
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            // Display the countdown
+            document.getElementById('days').textContent = String(days).padStart(2, '0');
+            document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+            document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+            document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+            
+            // If countdown is finished
+            if (distance < 0) {
+                document.getElementById('countdown').innerHTML = '';
+                document.querySelector('.countdown-title').textContent = '⏰ Partnership Window Closed';
+                document.getElementById('formSection').style.display = 'none';
+                document.getElementById('formClosed').style.display = 'block';
+            }
+        }
+        
+        // Update countdown every second
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+        
+        // Show floating CTA after scrolling down
+        window.addEventListener('scroll', function() {
+            const floatingCta = document.getElementById('floatingCta');
+            if (window.scrollY > 300) {
+                floatingCta.classList.add('show');
+            } else {
+                floatingCta.classList.remove('show');
+            }
+        });
+    </script>
+</body>
+</html>
